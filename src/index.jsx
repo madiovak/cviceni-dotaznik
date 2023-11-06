@@ -1,15 +1,7 @@
-import React from 'react';
 import { createRoot } from 'react-dom/client';
-import Question from './Question/index';
-import './style.css';
+import { HomePage } from './pages/HomePage';
+import './global.css';
 
-const App = () => {
-  return (
-    <div className="container">
-      <Question text="Kdo jinému jámu kopá, sám do ní padá." />
-    </div>
-  );
-};
-  
-
-createRoot(document.querySelector('#app')).render(<App />);
+createRoot(
+  document.querySelector('#app'),
+).render(<HomePage />);

@@ -1,8 +1,7 @@
-import React from 'react';
-import Icon from '../Icon/index';
+import { Icon } from '../Icon/index';
 import './style.css';
 
-const QuestionBody = (props) => {
+export const QuestionBody = (props) => {
   return (
     <div className="question__body">
       <p className="question__text">
@@ -12,5 +11,3 @@ const QuestionBody = (props) => {
     </div>
   );
 };
-
-export default QuestionBody;

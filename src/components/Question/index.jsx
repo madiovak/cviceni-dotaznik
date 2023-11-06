@@ -1,9 +1,8 @@
-import React from 'react';
-import QuestionBody from '../QuestionBody/index';
-import Option from '../Option/index';
+import { QuestionBody } from '../QuestionBody/index';
+import { Option } from '../Option/index';
 import './style.css';
 
-const Question = (props) => {
+export const Question = (props) => {
   return (
     <div className="question">
       <QuestionBody 
@@ -20,5 +19,3 @@ const Question = (props) => {
     </div>
   );
 };
-
-export default Question;

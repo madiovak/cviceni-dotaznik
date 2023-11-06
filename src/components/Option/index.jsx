@@ -1,8 +1,7 @@
-import React from 'react';
-import Icon from '../Icon/index';
+import { Icon } from '../Icon/index';
 import './style.css';
 
-const Option = (props) => {
+export const Option = (props) => {
   return (
     <div className="option">
       <Icon type={props.type} />
@@ -10,5 +9,3 @@ const Option = (props) => {
     </div>
   );
 };
-
-export default Option;

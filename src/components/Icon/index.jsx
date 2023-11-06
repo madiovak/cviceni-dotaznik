@@ -1,4 +1,3 @@
-import React from 'react';
 import './style.css';
 
 const SmileyContent = ({ type }) => {
@@ -55,7 +54,7 @@ const SymbolContent = ({ type }) => {
   return null;
 };
 
-const Icon = ({ type }) => {
+export const Icon = ({ type }) => {
   let content = null;
 
   if (type.startsWith('smiley')) {
@@ -71,5 +70,3 @@ const Icon = ({ type }) => {
     </svg>
   );
 };
-
-export default Icon;
